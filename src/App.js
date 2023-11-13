@@ -15,7 +15,7 @@ function App() {
       <br /><br /><br />
       <Routes >
         
-        <Route path='*' element={<><h1>404</h1></>}  />
+        <Route path='/' element={<><h1>404</h1></>}  />
         <Route     path='/tp1'    element={<Calc/>} />
         <Route     path='/tp2'    element={<Slider/>} />
         <Route     path='/tp3'    element={<Todo/>} />
